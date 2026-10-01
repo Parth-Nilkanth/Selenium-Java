@@ -9,8 +9,10 @@ public class BaseTests
         System.setProperty("webdriver.chrome.driver", "workspace/webdriver_java/resources/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://the-internet.herokuapp.com/");
+        driver.manage().window().fullscreen();
         System.out.println(driver.getTitle());
-        driver.quit();
+        
+        // driver.quit();
     }
     public static void main(String argsp[])
     {
