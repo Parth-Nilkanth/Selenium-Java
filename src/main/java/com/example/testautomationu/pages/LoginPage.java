@@ -10,6 +10,10 @@ public class LoginPage
     private By passwordField = By.id("password");
     private By loginButton = By.cssSelector("#login button");
     
+    LoginPage(WebDriver driver)
+    {
+        this.driver = driver;
+    }
     public void setUserName(String name)
     {
         driver.findElement(usernameField).sendKeys(name);
@@ -17,7 +21,7 @@ public class LoginPage
 
     public void setPassword(String password)
     {
-        driver.findElement(usernameField).sendKeys(password);
+        driver.findElement(passwordField).sendKeys(password);
     }
     public SecureAreaPage clickLoginButton()
     {

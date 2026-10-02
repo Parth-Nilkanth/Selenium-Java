@@ -11,9 +11,10 @@ public class HomePage {
                 this.driver = driver;
         }
     
-     public void clickFormAuthentication() 
+     public LoginPage clickFormAuthentication() 
      {
             driver.findElement(formAuthenticationLink).click();
+            return new LoginPage(driver);
      }
     
 }

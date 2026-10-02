@@ -1,0 +1,13 @@
+classpath:C:\Users\PARTH\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar	13741:1790865544015
+classpath:C:\Users\PARTH\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar	182089:1790865544161
+classpath:C:\Users\PARTH\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar	333950:1790865544102
+classpath:C:\Users\PARTH\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar	2987269:1790865545244
+classpath:C:\Users\PARTH\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar	54423:1753960052477
+classpath:C:\Users\PARTH\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar	2738171:1790865545691
+classpath:C:\Users\PARTH\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar	33015:1790865544113
+classpath:C:\Users\PARTH\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar	31547:1790865544145
+classpath:C:\Users\PARTH\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar	13704:1790865544149
+classpath:C:\Users\PARTH\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar	8782:1790865544195
+classpath:C:\Users\PARTH\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar	3482:1790865544195
+classpath:C:\Users\PARTH\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar	413639:1790865544748
+classpath:C:\Users\PARTH\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar	85756:1790865544310
