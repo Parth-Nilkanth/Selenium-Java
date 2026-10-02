@@ -16,5 +16,18 @@ public class HomePage {
             driver.findElement(formAuthenticationLink).click();
             return new LoginPage(driver);
      }
-    
+     public DropdownPage clickDropDown() 
+{
+    System.out.println("Current URL: " + driver.getCurrentUrl());
+    System.out.println("Page title: " + driver.getTitle());
+    System.out.println("Page source contains Dropdown: "
+            + driver.getPageSource().contains("Dropdown"));
+
+    clickLink("Dropdown");
+    return new DropdownPage(driver);
+}
+     private  void clickLink(String linkText)
+     {
+        driver.findElement(By.linkText(linkText)).click();
+     }
 }
