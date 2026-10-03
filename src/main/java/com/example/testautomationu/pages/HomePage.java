@@ -30,4 +30,10 @@ public class HomePage {
      {
         driver.findElement(By.linkText(linkText)).click();
      }
+
+     public HoversPage clickHovers()
+     {
+        clickLink("Hovers");
+        return new HoversPage(driver);
+     }
 }
